@@ -1,0 +1,10 @@
+README file for codes within respository
+
+Codes L_Tdy_DPI_PI estimates mixing depth (L), integrated temperature to that mixing depth (Tdy),
+dynamic potential intensity based on Tdy, and estimates potential intensity using SST for comparison.
+These formulations comes from Balaguru et al. (2015, GRL) and Emanuel(1999, Nature)
+
+This funciton uses the functions get_mld.m to estimate mixed layer depth, qsat.m to estimate saturation
+specific humidity, and the saltwater density toolbox function sw_pden.m to estimate potential density.
+
+Specific inputs/outputs per function are listed within each code.
